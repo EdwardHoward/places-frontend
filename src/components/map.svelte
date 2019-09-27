@@ -28,12 +28,23 @@
 </script>
 
 <style>
+
+   .map-container {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      padding-top: 50px;
+   }
+
    #map {
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
    }
 </style>
 
-<div id="map">
-   <slot></slot>
+<div class="map-container">
+   <div id="map">
+      <slot></slot>
+   </div>
 </div>
