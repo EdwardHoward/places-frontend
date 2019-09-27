@@ -27,8 +27,8 @@
 </script>
 
 <Search on:search={handleSearch} query={query} />
-<Map markers={markers} location={location} zoom={zoom}>
+<Map location={location} zoom={zoom}>
    {#each markers as marker (marker.id)}
-      <Marker marker={marker} map={map}></Marker>
+      <Marker marker={marker}></Marker>
    {/each}
 </Map>
