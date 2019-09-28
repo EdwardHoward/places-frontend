@@ -1,5 +1,4 @@
 <script>
-   import { onMount } from 'svelte';
    import Search from './search';
    import Marker from './marker';
    import Map from './map';
